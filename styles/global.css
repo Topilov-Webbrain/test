@@ -2,6 +2,14 @@
 /* font-family: 'Josefin Sans', sans-serif; */
 /* font-family: 'Cormorant Infant', serif; */
 
+:root {
+    --orange-color:#E1B168;
+    --dark-black-color:#000;
+    --black-color:#292e36;
+    --light-black-color:#555;
+    --white-color:#fff;
+}
+
 * {
     margin: 0;
     padding: 0;
