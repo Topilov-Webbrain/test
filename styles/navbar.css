@@ -1,4 +1,169 @@
 nav {
-    height: 100vh;
-    background-color: red;
+    background-color: var(--black-color);
+}
+
+/* ---------------------Desktop Navbar Start--------------------- */
+nav .desktop-navbar .top-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+nav .desktop-navbar .top-part .global-button {
+    width: 295px;
+}
+
+nav .desktop-navbar .top-part .global-button:first-child:hover {
+    background-color: var(--orange-color);
+}
+
+nav .desktop-navbar .top-part .global-button:last-child {
+    background-color: var(--orange-color);
+}
+
+nav .desktop-navbar .top-part .global-button:last-child:hover {
+    background-color: transparent;
+}
+
+nav .desktop-navbar .hr {
+    height: 1px;
+    background: #5C6168;
+}
+
+nav .desktop-navbar .bottom-part {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .desktop-navbar .bottom-part ul {
+    list-style-type: none;
+}
+
+nav .desktop-navbar .bottom-part .links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .desktop-navbar .bottom-part .links li a {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+
+nav .desktop-navbar .bottom-part .links li a:hover {
+    color: var(--orange-color);
+}
+
+nav .desktop-navbar .bottom-part .icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav .desktop-navbar .bottom-part .icons li a svg:hover path {
+    fill: var(--orange-color);
+}
+
+/* ---------------------Desktop Navbar End--------------------- */
+
+
+/* ---------------------Mobile Navbar Start--------------------- */
+nav .mobile-navbar {
+    display: none;
+    padding: 20px 0;
+}
+
+nav .mobile-navbar .my-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .mobile-navbar .my-container .logo {
+    width: 100px;
+}
+
+nav .mobile-navbar .my-container .logo img {
+    width: 100%;
+}
+
+nav .mobile-navbar .my-container .burger-menu {
+    width: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .mobile-navbar .my-container .burger-menu svg {
+    width: 100%;
+}
+
+nav .mobile-navbar .my-container .burger-menu svg path {
+    fill: var(--orange-color);
+}
+
+nav .mobile-navbar .my-container .burger-menu:hover svg path {
+    fill: var(--white-color);
+}
+
+/* ---------------------Mobile Navbar End--------------------- */
+
+
+
+/* ---------------------Media Queries--------------------- */
+@media screen and (max-width:1100px) {
+    nav .desktop-navbar .top-part {
+        padding: 30px 0;
+    }
+
+    nav .desktop-navbar .top-part .logo {
+        width: 180px;
+    }
+
+    nav .desktop-navbar .top-part .logo img {
+        width: 100%;
+    }
+
+    nav .desktop-navbar .top-part .global-button {
+        width: 200px;
+        padding: 8px 20px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    nav .desktop-navbar .bottom-part {
+        padding: 15px 0;
+    }
+
+    nav .desktop-navbar .bottom-part .links {
+        gap: 20px;
+    }
+
+    nav .desktop-navbar .bottom-part .links li a {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    nav .desktop-navbar .bottom-part .icons {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    nav .desktop-navbar {
+        display: none;
+    }
+
+    nav .mobile-navbar {
+        display: block;
+    }
 }
