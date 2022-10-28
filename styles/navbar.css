@@ -133,7 +133,7 @@ nav .mobile-navbar #menu {
     padding-bottom: 20px;
 }
 
-/* nav .mobile-navbar #menu.isMobile {
+nav .mobile-navbar #menu.isMobile {
     -ms-overflow-style: none;
     scrollbar-width: none;
     overflow-y: scroll;
@@ -141,7 +141,7 @@ nav .mobile-navbar #menu {
 
 nav .mobile-navbar #menu.isMobile::-webkit-scrollbar {
     display: none;
-} */
+}
 
 nav .mobile-navbar #menu .top-part .container {
     padding: 20px 0;
