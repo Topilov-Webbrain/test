@@ -21,12 +21,31 @@ function toggleMobileMenu() {
 
 // Toggle Mobile Menu Visibility on Click Functions 
 document.getElementById('burger-menu-icon').addEventListener('click', () => {
-        toggleMobileMenu()
+    toggleMobileMenu()
 })
 document.getElementById('close-menu-icon').addEventListener('click', () => {
-        toggleMobileMenu()
+    toggleMobileMenu()
 })
 var els = document.getElementsByClassName("close-menu");
-Array.prototype.forEach.call(els, function(el) {
-        el.addEventListener('click', ()=>toggleMobileMenu())
+Array.prototype.forEach.call(els, function (el) {
+    el.addEventListener('click', () => toggleMobileMenu())
 });
+
+// Making sticky navigation bar
+let sticky = document.getElementsByClassName("sticky")[0];
+let stickyOffsetTop = sticky.offsetTop;
+
+window.onscroll = function () { sticker() };
+
+function sticker() {
+    if (window.pageYOffset >= (stickyOffsetTop + 100)) {
+        sticky.classList.add("go")
+    } else {
+        sticky.classList.remove("go");
+    }
+}
+
+if (window.innerWidth <= 767) {
+    // let spaceFromTop = document.getElementsByClassName('mobile-navbar')[0].clientHeight;
+    document.getElementById('home').style.paddingTop = (document.getElementById('home').style.paddingTop + (94 + 'px'))
+}

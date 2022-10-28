@@ -31,6 +31,14 @@ nav .desktop-navbar .hr {
     background: #5C6168;
 }
 
+nav .desktop-navbar .sticky.go {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--black-color);
+    transition: 0.5s linear;
+}
+
 nav .desktop-navbar .bottom-part {
     padding: 20px 0;
     display: flex;
@@ -79,6 +87,11 @@ nav .desktop-navbar .bottom-part .icons li a svg:hover path {
 nav .mobile-navbar {
     display: none;
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: var(--black-color);
 }
 
 nav .mobile-navbar .my-container {
@@ -242,6 +255,16 @@ nav .mobile-navbar #menu .bottom-part .container .global-button:last-child:hover
 
     nav .desktop-navbar .bottom-part .icons {
         gap: 15px;
+    }
+}
+
+@media screen and (max-device-width:767px) {
+    nav .desktop-navbar {
+        display: none;
+    }
+
+    nav .mobile-navbar {
+        display: block;
     }
 }
 
