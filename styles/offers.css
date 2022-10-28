@@ -1,7 +1,3 @@
-.offers {
-    
-}
-
 .offers .offers_box {
     display: flex;
     flex-direction: column;
@@ -22,10 +18,9 @@
     line-height: 22px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #292E36;
-    border-top: 2px solid #E1B168;
-    border-bottom: 2px solid #E1B168;
-    text-align: center;
+    color: var(--black-color);
+    border-top: 2px solid var(--orange-color);
+    border-bottom: 2px solid var(--orange-color)
 }
 
 .offers .offers_title {
@@ -35,7 +30,9 @@
     line-height: 56px;
     letter-spacing: 0.2px;
     text-transform: capitalize;
-    color: #292E36;
+    color: var(--black-color);
+    padding-top: 12px;
+    padding-bottom: 8px;
 }
 
 .offers .offers_text {
@@ -46,17 +43,191 @@
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #555555;
+    color: var(--light-black-color);
 }
 
 .offers .offers_bottom {
     display: flex;
     gap: 30px;
     justify-content: space-between;
-    padding-top: 65px;
+    padding-top: 40px;
 }
 
-.offers_bottom_left {
-    width: calc((100% - 30px) / 2) ;
-    background-image: ;
+.offers .offers_bottom_left {
+    width: calc((100% - 30px) / 2);
+    background-image: url(../media/images/offers/left-background.svg);
+    display: flex;
+    justify-content: space-between;
+    padding: 39.66px 40px 40.34px 40px;
+
+}
+
+.offers .offers_bottm_inside_left_price_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+.offers .offers_bottm_inside_left_price {
+
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    color: var(--black-color);
+}
+
+.offers .offers_inside_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/images/offers/left-price-background.svg);
+    width: 160px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    padding-bottom: 20px;
+}
+
+.offers .offers_inside_nadpisi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+
+.offers .nadpisi_zaglavie {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    border-top: 1px solid var(--black-color);
+    border-bottom: 1px solid var(--black-color);
+    width: 210px;
+}
+
+.offers .nadpisi_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: var(--black-color);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.offers .nadpisi_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--light-black-color);
+    padding-right: 10px;
+}
+
+.offers .offers_bottm_inside_main {
+    position: relative;
+    top: 50px;
+}
+
+.offers .offers_bottom_right {
+    width: calc((100% - 30px) / 2);
+    background-image: url(../media/images/offers/right-background.svg);
+    display: flex;
+    justify-content: space-between;
+    padding: 39.66px 40px 40.34px 40px;
+}
+
+.offers .offers_bottm_inside_right_price_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.offers .offers_bottm_inside_right_price {
+
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+
+.offers .offers_inside_price_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/images/offers/right-price-background.svg);
+    width: 160px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    padding-bottom: 20px;
+}
+
+.offers .offers_inside_nadpisi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+
+.offers .nadpisi_zaglavie {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    border-top: 1px solid var(--black-color);
+    border-bottom: 1px solid var(--black-color);
+    width: 210px;
+}
+
+.offers .nadpisi_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: var(--black-color);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.offers .nadpisi_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--light-black-color);
+    padding-right: 10px;
+}
+
+.offers .offers_bottm_inside_main_right {
+    position: relative;
+    top: 20px;
 }
