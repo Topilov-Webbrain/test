@@ -1,4 +1,62 @@
 .offers {
-    height: 100vh;
-    background-color: beige;
+    
+}
+
+.offers .offers_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.offers .offers_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 305px 0px 305px;
+}
+
+.offers .offers_zaglaviy {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #292E36;
+    border-top: 2px solid #E1B168;
+    border-bottom: 2px solid #E1B168;
+    text-align: center;
+}
+
+.offers .offers_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #292E36;
+}
+
+.offers .offers_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+.offers .offers_bottom {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.offers_bottom_left {
+    width: calc((100% - 30px) / 2) ;
+    background-image: ;
 }
