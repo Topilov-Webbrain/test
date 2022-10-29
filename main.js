@@ -38,14 +38,9 @@ let stickyOffsetTop = sticky.offsetTop;
 window.onscroll = function () { sticker() };
 
 function sticker() {
-    if (window.pageYOffset >= (stickyOffsetTop + 100)) {
+    if (window.pageYOffset >= (stickyOffsetTop + 150)) {
         sticky.classList.add("go")
     } else {
         sticky.classList.remove("go");
     }
-}
-
-if (window.innerWidth <= 767) {
-    // let spaceFromTop = document.getElementsByClassName('mobile-navbar')[0].clientHeight;
-    document.getElementById('home').style.paddingTop = (document.getElementById('home').style.paddingTop + (94 + 'px'))
 }
