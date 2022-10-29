@@ -34,9 +34,10 @@ nav .desktop-navbar .hr {
 nav .desktop-navbar .sticky.go {
     position: fixed;
     top: 0;
+    z-index: 9;
     width: 100%;
     background-color: var(--black-color);
-    transition: 0.5s linear;
+    transition: 0.2s ease-out;
 }
 
 nav .desktop-navbar .bottom-part {
