@@ -1,4 +1,96 @@
+
 .reservation-contact-us {
-    height: 100vh;
     background-color: #f4f4;
+    background-image: url(../media/images/reservation/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reservation-contact-us .container{
+    padding: 140px 0px;
+}
+.reservation-contact-us .main-black-box{
+    max-width: 920px;
+    background: #292E36F2;
+    margin: 0px auto; 
+    padding:150px 140px ;
+}
+
+.inline-box-inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.reservation-contact-us .inline-box span{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+    margin-left: 260px;
+}
+.reservation-contact-us .inline-box h2{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: var(--white-color);
+}
+.reservation-contact-us .inline-box-inputs .first-line-inputs input{
+    width: 307px;
+    height: 70px;
+    border: 1px solid var(--white-color);
+    background-color: transparent;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    outline: none;
+    color: var(--white-color);
+    padding-left: 20px;
+}
+.reservation-contact-us .first-line-inputs{
+    display: flex;
+    gap: 30px;
+}
+.reservation-contact-us .second-line-inputs{
+    display: flex;
+    gap: 25px;
+}
+.reservation-contact-us .inline-box-inputs .second-line-inputs input{
+    width: 198px;
+    height: 70px;
+    border: 1px solid var(--white-color);
+    background-color: transparent;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    outline: none;
+    padding-left: 20px;
+}
+.reservation-contact-us .inline-box-inputs button{
+    width: 242px;
+    height: 68px;
+    border: 1px solid var(--white-color);
+    background-color: var(--white-color);
+    color: #000000;
+    
 }
