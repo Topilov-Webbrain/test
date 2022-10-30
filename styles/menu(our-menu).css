@@ -1,4 +1,38 @@
 .menu-our-menu {
-    height: 100vh;
-    background-color: rosybrown;
+    padding: 100px 0 200px;
+    background-color: #fff;
+}
+
+.menu-our-menu .part-name .container span {
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    padding: 4px 0;
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+}
+
+
+.menu-our-menu .part-content {
+    margin-top: 10px;
+}
+
+.menu-our-menu .part-content .my-container {
+    display: flex;
+}
+
+.menu-our-menu .part-content .my-container .left-side {
+    width: calc(30% - 10px);
+}
+
+.menu-our-menu .part-content .my-container .right-side {
+    width: calc(70% - 10px);
+}
+
+
+/* ---------------------Media Queries---------------------- */
+@media screen and (max-width:767px) {
+
 }
