@@ -31,6 +31,15 @@ nav .desktop-navbar .hr {
     background: #5C6168;
 }
 
+nav .desktop-navbar .sticky.go {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    background-color: var(--black-color);
+    transition: 0.2s ease-out;
+}
+
 nav .desktop-navbar .bottom-part {
     padding: 20px 0;
     display: flex;
@@ -79,6 +88,11 @@ nav .desktop-navbar .bottom-part .icons li a svg:hover path {
 nav .mobile-navbar {
     display: none;
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: var(--black-color);
 }
 
 nav .mobile-navbar .my-container {
@@ -95,7 +109,7 @@ nav .mobile-navbar .my-container .logo img {
     width: 100%;
 }
 
-nav .mobile-navbar .my-container .burger-menu {
+nav .mobile-navbar .my-container .menu-icon {
     width: 20px;
     display: flex;
     justify-content: flex-end;
@@ -103,16 +117,103 @@ nav .mobile-navbar .my-container .burger-menu {
     cursor: pointer;
 }
 
-nav .mobile-navbar .my-container .burger-menu svg {
+nav .mobile-navbar .my-container .menu-icon svg {
     width: 100%;
 }
 
-nav .mobile-navbar .my-container .burger-menu svg path {
+nav .mobile-navbar .my-container .menu-icon svg path {
     fill: var(--orange-color);
 }
 
-nav .mobile-navbar .my-container .burger-menu:hover svg path {
+nav .mobile-navbar .my-container .menu-icon:hover svg path {
     fill: var(--white-color);
+}
+
+nav .mobile-navbar #menu.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+nav .mobile-navbar #menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: var(--black-color);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.1s ease-in-out;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+nav .mobile-navbar #menu.isMobile {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+nav .mobile-navbar #menu.isMobile::-webkit-scrollbar {
+    display: none;
+}
+
+nav .mobile-navbar #menu .top-part .container {
+    padding: 20px 0;
+}
+
+nav .mobile-navbar #menu .bottom-part .container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav .mobile-navbar #menu .bottom-part .container .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+nav .mobile-navbar #menu .bottom-part .container .links li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    transition: 0.1s linear;
+}
+
+nav .mobile-navbar #menu .bottom-part .container .links li a:hover {
+    color: var(--orange-color);
+}
+
+nav .mobile-navbar #menu .bottom-part .container .icons {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav .mobile-navbar #menu .bottom-part .container .icons li a:hover svg path {
+    fill: var(--orange-color);
+}
+
+nav .mobile-navbar #menu .bottom-part .container .global-button {
+    width: 295px;
+}
+
+nav .mobile-navbar #menu .bottom-part .container .global-button:first-of-type:hover {
+    background-color: var(--orange-color);
+}
+
+nav .mobile-navbar #menu .bottom-part .container .global-button:last-child {
+    background-color: var(--orange-color);
+}
+
+nav .mobile-navbar #menu .bottom-part .container .global-button:last-child:hover {
+    background-color: transparent;
 }
 
 /* ---------------------Mobile Navbar End--------------------- */
@@ -155,6 +256,16 @@ nav .mobile-navbar .my-container .burger-menu:hover svg path {
 
     nav .desktop-navbar .bottom-part .icons {
         gap: 15px;
+    }
+}
+
+@media screen and (max-device-width:767px) {
+    nav .desktop-navbar {
+        display: none;
+    }
+
+    nav .mobile-navbar {
+        display: block;
     }
 }
 
