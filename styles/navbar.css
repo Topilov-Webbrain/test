@@ -37,6 +37,7 @@ nav .desktop-navbar .sticky.go {
     z-index: 9;
     width: 100%;
     background-color: var(--black-color);
+    box-shadow: 0 2px 2px -2px var(--light-black-color);
     transition: 0.2s ease-out;
 }
 
@@ -178,6 +179,7 @@ nav .mobile-navbar #menu .bottom-part .container .links {
 
 nav .mobile-navbar #menu .bottom-part .container .links li a {
     text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;

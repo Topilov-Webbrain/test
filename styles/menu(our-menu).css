@@ -1,9 +1,11 @@
 .menu-our-menu {
     padding: 100px 0 200px;
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 .menu-our-menu .part-name .container span {
+    padding: 2px 0;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 3px;
@@ -28,6 +30,7 @@
 }
 
 .menu-our-menu .part-content .my-container .left-side .title {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 40px;
     line-height: 45px;
     letter-spacing: 0.2px;
@@ -37,6 +40,7 @@
 
 .menu-our-menu .part-content .my-container .left-side p {
     margin: 13px 0 45px;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.2px;
@@ -71,6 +75,7 @@
 }
 
 .menu-our-menu .part-content .my-container .right-side .section .main-title {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 36px;
     line-height: 50px;
     letter-spacing: 0.2px;
@@ -108,6 +113,7 @@
 }
 
 .menu-our-menu .part-content .my-container .right-side .section .row .right .left-part div:first-of-type {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 0.2px;
@@ -115,6 +121,7 @@
 }
 
 .menu-our-menu .part-content .my-container .right-side .section .row .right .left-part div:last-of-type {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -122,6 +129,7 @@
 }
 
 .menu-our-menu .part-content .my-container .right-side .section .row .right .right-part {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 0.2px;
@@ -245,7 +253,7 @@
         font-size: 22px;
         line-height: 22px;
     }
-    
+
     .menu-our-menu .part-content .my-container .right-side .section .row .right .left-part div:last-of-type {
         margin: 5px 0;
         font-size: 16px;
