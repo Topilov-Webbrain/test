@@ -1,4 +1,192 @@
 footer {
-    height: 100vh;
-    background-color: cadetblue;
+    background-color: var(--black-color);
+}
+footer .footer-top-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 130px;
+}
+footer .footer-top-part .footer-header{
+    width: 13%;
+    height: 100%;
+}
+footer .footer-top-part h1{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color:var(--white-color);
+}
+footer .footer-top-part p{
+    width: 70%;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    
+}
+
+footer .footer-icons{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    position: absolute;
+    top: 210px;
+    right: 0;
+}
+
+footer .footer-top-part .footer-icons li a svg:hover path {
+    fill: var(--orange-color);
+}
+footer .footer-icons-texts span{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+    position: absolute;
+    top: 330px;
+    right: 0px;
+    
+}
+footer .footer-middle-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+footer .footer-middle-part .middle-part-address span{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+}
+footer .footer-middle-part .middle-part-address p{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+footer .footer-middle-part .middle-part-address p a{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--orange-color);
+    text-decoration: none;
+}
+footer .address-second-part{
+    margin-top: 45px;
+}
+.middle-part-inputs-btns{
+    margin-top: 20px;
+}
+footer .footer-middle-part .middle-part-inputs-btns input{
+    width:456px;
+    height: 66px;
+    border: 1px solid var(--white-color);
+    background-color: transparent;
+    outline: none;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    padding-left: 24px;
+}
+footer .global-button{
+    color: var(--black-color);
+    border: 1px solid var(--white-color);
+}
+footer .global-button:active{
+    transform: scale(0.95);
+}
+footer .middle-part-days{
+    margin-top: 15px;
+}
+footer .middle-part-days pre{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+footer .middle-part-days span{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--orange-color);
+}
+
+footer .footer-bottom-part{
+    width: 100%;
+    height: 81px;
+    border-top: 1px solid var(--white-color);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-bottom-part .bottom-part-left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+footer .footer-bottom-part .bottom-part-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+footer .footer-bottom-part p a{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--orange-color);
+    text-decoration: none;
+}
+footer .footer-bottom-part p a:hover{
+    color: var(--white-color);
+}
+footer .footer-bottom-part span{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--orange-color);
 }
