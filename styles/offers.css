@@ -9,7 +9,8 @@
     justify-content: center;
     align-items: center;
     padding: 120px 0px 0px 0px;
-    width: 750px;
+    width: 100%;
+    max-width: 813px;
     margin: 0 auto;
 }
 
@@ -21,8 +22,8 @@
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--black-color);
-    border-top: 2px solid var(--orange-color);
-    border-bottom: 2px solid var(--orange-color)
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color)
 }
 
 .offers .offers_title {
@@ -283,6 +284,7 @@
 @media screen and (max-width:767px) {
 
     .offers .offers_top {
+        max-width: 500px;
         width: 100%;
     }
 
