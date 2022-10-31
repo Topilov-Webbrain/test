@@ -35,6 +35,7 @@
 }
 
 .about-us .top-part .my-container .item .right-side .title {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 28px;
     line-height: 35px;
     letter-spacing: 0.2px;
@@ -44,6 +45,7 @@
 .about-us .top-part .my-container .item .right-side .address {
     text-decoration: none;
     margin-top: 5px;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     line-height: 20px;
     letter-spacing: 0.2px;
@@ -73,6 +75,7 @@
 }
 
 .about-us .bottom-part .my-container .right-side .title {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
@@ -80,6 +83,7 @@
 }
 
 .about-us .bottom-part .my-container .right-side p {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -97,6 +101,7 @@
 }
 
 .about-us .bottom-part .my-container .right-side .middle-part .plan-number {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 0.2px;
@@ -104,6 +109,7 @@
 }
 
 .about-us .bottom-part .my-container .right-side .middle-part .plan-text {
+    font-family: 'Josefin Sans', sans-serif;
     margin-top: 15px;
     font-size: 20px;
     line-height: 30px;
@@ -113,6 +119,7 @@
 
 .about-us .bottom-part .my-container .right-side .name {
     margin: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -206,20 +213,20 @@
         font-size: 14px;
         line-height: 16px;
     }
-    
+
     .about-us .bottom-part .my-container {
         flex-direction: column;
     }
-    
+
     .about-us .bottom-part .my-container .for-img {
         width: 100%;
     }
-    
+
     .about-us .bottom-part .my-container .right-side {
         width: 100%;
         text-align: center;
     }
-    
+
     .about-us .bottom-part .my-container .right-side .sign {
         margin: 0 auto;
     }
