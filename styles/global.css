@@ -33,17 +33,12 @@ body {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1365px) {
-    .container {
-        width: 1285px;
-    }
-}
-
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1440px) {
     .container {
         width: 94%;
     }
 }
+
 
 /* Global Button Styles */
 .global-button {
