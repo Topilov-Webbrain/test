@@ -1,4 +1,237 @@
 .testimonial-pages {
-    height: 100vh;
-    background-color: mediumturquoise;
+    padding: 100px 0 0;
+    background-color: var(--black-color);
+}
+
+.testimonial-pages .top-part {
+    padding-bottom: 80px;
+}
+
+.testimonial-pages .top-part .main-title span {
+    padding: 6px 0 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+}
+
+.testimonial-pages .top-part .title {
+    font-family: 'Cormorant Infant', sans-serif;
+    margin: 8px 0;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: var(--white-color);
+}
+
+.testimonial-pages .top-part p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+
+.testimonial-pages .carousel-part .my-container {
+    width: 1400px;
+    margin: 0 0 0 auto;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .owl-item {
+    padding: 10px 40px;
+    background-color: #343942;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .owl-dots {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 3px rgba(51, 51, 51, 0.4);
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .owl-dots .owl-dot.active {
+    background: var(--white-color);
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .top .for-image {
+    width: 113px;
+    height: 113px;
+    position: relative;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .top .for-image .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: var(--orange-color);
+    border: 2px solid var(--black-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .top .for-image .circle img {
+    width: 50%;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .top .for-image img {
+    width: 100%;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .top .right .name {
+    font-family: 'Cormorant Infant', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .top .right .address {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: var(--orange-color);
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .hr {
+    margin: 30px 0;
+    height: 1px;
+    background-color: #797E89;
+}
+
+.testimonial-pages .carousel-part .my-container .owl-carousel .item .bottom {
+    font-family: 'Cormorant Infant', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.25px;
+    color: var(--white-color);
+}
+
+.testimonial-pages .bottom-image {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.testimonial-pages .bottom-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* ----------------------Media Queries---------------------- */
+
+@media screen and (max-width:1440px) {
+    .testimonial-pages .carousel-part .my-container {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .testimonial-pages {
+        padding: 70px 0 0;
+    }
+
+    .testimonial-pages .top-part {
+        padding-bottom: 50px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .owl-item {
+        padding: 10px 25px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .owl-dots {
+        padding-top: 40px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .item .top .for-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .item .bottom {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .testimonial-pages .bottom-image {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .testimonial-pages {
+        padding: 50px 0 0;
+    }
+
+    .testimonial-pages .top-part {
+        padding-bottom: 40px;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .testimonial-pages .top-part .main-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonial-pages .carousel-part .my-container {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .owl-dots {
+        padding-top: 20px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .owl-dots .owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .item .top {
+        gap: 20px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .item .top .for-image .circle {
+        width: 20px;
+        height: 20px;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .item .hr {
+        margin: 25px 0;
+    }
+
+    .testimonial-pages .carousel-part .my-container .owl-carousel .item .bottom {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
