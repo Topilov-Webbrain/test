@@ -1,3 +1,35 @@
+
+// Owl Carousel configuration
+$(document).ready(function () {
+    $(".owl-carousel").owlCarousel();
+});
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    margin: 30,
+    nav: false,
+    dots: true,
+    dotsEach: 2.5,
+    lazyLoad: true,
+    lazyLoadEager: true,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 5
+        },
+        768: {
+            items: 2,
+            margin: 15
+        },
+        1000: {
+            items: 2.5
+        }
+    }
+})
+
 // Detect device is mobile or not
 const isMobile = navigator.userAgentData.mobile;
 
