@@ -10,7 +10,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 750px;
+    max-width: 813px;
+    width: 100%;
 }
 
 .menu .menu_zaglaviy {
@@ -21,8 +22,8 @@
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--black-color);
-    border-top: 2px solid var(--orange-color);
-    border-bottom: 2px solid var(--orange-color)
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color)
 }
 
 .menu .menu_title {
@@ -150,6 +151,7 @@
 
 @media screen and (max-width:767px) {
     .menu .menu_top {
+        max-width: 500px;
         width: 100%;
         display: flex;
         flex-direction: column;
