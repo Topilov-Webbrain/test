@@ -1,41 +1,41 @@
 footer {
     background-color: var(--black-color);
+    padding: 130px 0 0;
 }
-footer .footer-top-part{
+
+footer .footer-top-part {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    padding-top: 130px;
 }
-footer .footer-top-part .footer-header{
-    width: 13%;
-    height: 100%;
-}
-footer .footer-top-part h1{
+
+footer .footer-top-part h1 {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.2px;
-    color:var(--white-color);
+    color: var(--white-color);
 }
 
 
-footer .footer-icons{
+footer .footer-icons {
     display: flex;
     gap: 20px;
     list-style-type: none;
+    align-items: center;
 }
 
 footer .footer-top-part .footer-icons li a svg:hover path {
     fill: var(--orange-color);
 }
-footer .middle-part-days .working-hours{
-    margin-bottom:20px ;
+
+footer .middle-part-days .working-hours {
+    margin-bottom: 20px;
 }
-footer .middle-part-days .working-hours span{
+
+footer .middle-part-days .working-hours span {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -46,16 +46,19 @@ footer .middle-part-days .working-hours span{
     text-transform: uppercase;
     color: var(--white-color);
     border-top: 1px solid var(--orange-color);
-    border-bottom: 1px solid var(--orange-color); 
+    border-bottom: 1px solid var(--orange-color);
 }
-footer .footer-middle-part{
+
+footer .footer-middle-part {
     display: flex;
     justify-content: space-between;
 }
-footer .footer-middle-part .middle-part-address{
+
+footer .footer-middle-part .middle-part-address {
     margin-top: 75px;
 }
-footer .footer-middle-part .middle-part-address span{
+
+footer .footer-middle-part .middle-part-address span {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -69,26 +72,30 @@ footer .footer-middle-part .middle-part-address span{
     border-bottom: 1px solid var(--orange-color);
     margin-top: 30px;
 }
-footer .address-second-part{
+
+footer .address-second-part {
     margin-top: 55px;
 }
-  footer .footer-middle-part .middle-part-address pre a{
+
+footer .footer-middle-part .middle-part-address pre a {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px; 
+    line-height: 30px;
     letter-spacing: 0.2px;
     text-decoration: none;
     color: var(--orange-color);
-} 
-.middle-part-inputs-btns{
+}
+
+.middle-part-inputs-btns {
     margin-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-footer .footer-middle-part p{
+
+footer .footer-middle-part p {
     width: 70%;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -100,9 +107,10 @@ footer .footer-middle-part p{
     color: var(--white-color);
     margin-bottom: 40px;
 }
-footer .footer-middle-part .middle-part-inputs-btns input{
-    width:456px;
-    height: 66px;
+
+footer .footer-middle-part .middle-part-inputs-btns input {
+    width: 456px;
+    height: 67px;
     border: 1px solid var(--white-color);
     background-color: transparent;
     outline: none;
@@ -115,20 +123,38 @@ footer .footer-middle-part .middle-part-inputs-btns input{
     color: var(--white-color);
     padding-left: 24px;
 }
-footer .global-button{
+
+footer .footer-middle-part .middle-part-inputs-btns input::placeholder {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+}
+
+footer .global-button {
+    margin-left: -4px;
     color: var(--black-color);
-    border: 1px solid var(--white-color);
+    border-color: var(--white-color);
+    background-color: var(--white-color);
+    cursor: pointer;
 }
-footer .global-button:active{
-    transform: scale(0.95);
+
+footer .global-button:hover {
+    border-color: var(--orange-color);
+    background-color: var(--orange-color);
+    color: var(--white-color);
 }
-footer .middle-part-days{
+
+footer .middle-part-days {
     margin-top: 25px;
 }
-footer .middle-part-days .days{
+
+footer .middle-part-days .days {
     margin-top: 40px;
 }
-footer .middle-part-days pre{
+
+footer .middle-part-days pre {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -137,7 +163,8 @@ footer .middle-part-days pre{
     letter-spacing: 0.2px;
     color: var(--white-color);
 }
-footer .middle-part-days span{
+
+footer .middle-part-days span {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -146,11 +173,13 @@ footer .middle-part-days span{
     letter-spacing: 0.2px;
     color: var(--orange-color);
 }
+
 /* -----------hidden-part----------- */
-footer .hidden{
+footer .hidden {
     display: none;
 }
-footer .hidden-part-first span{
+
+footer .hidden-part-first span {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -163,75 +192,81 @@ footer .hidden-part-first span{
     border-top: 1px solid var(--orange-color);
     border-bottom: 1px solid var(--orange-color);
 }
-footer .hidden-part-address pre a{
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px; 
-    letter-spacing: 0.2px;
-    text-decoration: none;
-    color: var(--orange-color);
-}
-footer .hidden-part-second .second-part-working span{
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 21px;
-    text-align: right;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--white-color);
-    border-top: 1px solid var(--orange-color);
-    border-bottom: 1px solid var(--orange-color);
-}
-footer .hidden-part-second .days-hidden pre{
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px; 
-    letter-spacing: 0.2px;
-    text-decoration: none;
-    color: var(--white-color);
-}
-footer .hidden-part-second .days-hidden span{
-    color: var(--orange-color);
-}
-/* -----------HIDDEN PART END------------ */
-footer .footer-bottom-part{
-    width: 100%;
-    height: 81px;
-    border-top: 1px solid var(--white-color);
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-footer .footer-bottom-part .bottom-part-left{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-footer .footer-bottom-part .bottom-part-right{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-footer .footer-bottom-part .bottom-part-left {
+
+footer .hidden-part-address pre a {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
+    text-decoration: none;
     color: var(--orange-color);
 }
+
+footer .hidden-part-second .second-part-working span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: right;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+}
+
+footer .hidden-part-second .days-hidden pre {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+footer .hidden-part-second .days-hidden span {
+    color: var(--orange-color);
+}
+
+/* -----------HIDDEN PART END------------ */
+footer .footer-bottom-part {
+    width: 100%;
+    border-top: 1px solid var(--white-color);
+    padding: 25px 0;
+}
+
+footer .footer-bottom-part .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .footer-bottom-part .bottom-part-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .footer-bottom-part .bottom-part-left p{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: var(--orange-color);
+}
+
 footer .footer-bottom-part .bottom-part-left span {
     color: var(--white-color);
 }
 
-footer .footer-bottom-part p a{
+footer .footer-bottom-part p a {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -241,70 +276,95 @@ footer .footer-bottom-part p a{
     color: var(--orange-color);
     text-decoration: none;
 }
-footer .footer-bottom-part p a:hover{
+
+footer .footer-bottom-part p a:hover {
     color: var(--white-color);
 }
 
-@media screen and (max-width: 1190px) {
-    
-    footer .middle-part-days .working-hours{
-        margin-bottom:20px ;
+
+/* -----------------------Media Queries----------------------- */
+
+@media screen and (max-width: 1250px) {
+    footer .footer-bottom-part .container {
+        flex-direction: column;
+        gap: 20px;
     }
-    footer .middle-part-days .working-hours span{
+
+    footer .footer-bottom-part .bottom-part-left {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+
+    footer .middle-part-days .working-hours {
+        margin-bottom: 20px;
+    }
+
+    footer .middle-part-days .working-hours span {
         font-size: 15px;
         line-height: 21px;
-        
+
     }
-      footer .footer-middle-part .middle-part-address pre a{
+
+    footer .footer-middle-part .middle-part-address pre a {
         font-weight: 400;
         font-size: 19px;
-        line-height: 30px; 
-    } 
-    
-    footer .footer-middle-part p{
+        line-height: 30px;
+    }
+
+    footer .footer-middle-part p {
         width: 70%;
         font-size: 22px;
         line-height: 30px;
     }
-    footer .footer-middle-part .middle-part-inputs-btns input{
-        width:426px;
+
+    footer .footer-middle-part .middle-part-inputs-btns input {
+        width: 426px;
         height: 66px;
     }
-    
-    
-    footer .middle-part-days pre{
+
+
+    footer .middle-part-days pre {
         font-size: 18px;
         line-height: 30px;
     }
-    footer .middle-part-days span{
+
+    footer .middle-part-days span {
         font-size: 18px;
         line-height: 30px;
     }
 }
 
 @media screen and (max-width: 1100px) {
-    footer .footer-main-img img{
+    footer .footer-main-img img {
         width: 310px;
     }
-    footer .footer-middle-part{
+
+    footer .footer-middle-part {
         display: flex;
         flex-direction: column;
     }
-    .middle-part-address{
+
+    .middle-part-address {
         display: none;
 
     }
-    footer .input-and-btn{
+
+    footer .input-and-btn {
         margin-top: 0px;
     }
-    footer .footer-middle-part .middle-part-inputs-btns input{
-        width:406px;
+
+    footer .footer-middle-part .middle-part-inputs-btns input {
+        width: 406px;
         height: 64px;
     }
-    .middle-part-days{
+
+    .middle-part-days {
         display: none;
     }
-    footer .hidden{
+
+    footer .hidden {
         display: block;
         display: flex;
         align-items: baseline;
@@ -312,45 +372,48 @@ footer .footer-bottom-part p a:hover{
         margin-top: 30px;
         gap: 80px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 45%;
         font-size: 20px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
-    
+
 }
 
 
 @media screen and (max-width: 1000px) {
-    footer .footer-main-img img{
+    footer .footer-main-img img {
         width: 280px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 50%;
     }
-    footer .hidden{
+
+    footer .hidden {
         gap: 60px;
     }
 
-    footer .footer-bottom-part{
+    footer .footer-bottom-part {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-evenly;
     }
-    footer .footer-bottom-part .bottom-part-left{
-        gap: 60px;
-    }
-    footer .footer-bottom-part .bottom-part-right{
+
+    footer .footer-bottom-part .bottom-part-right {
         gap: 50px;
     }
 }
+
 @media screen and (max-width: 850px) {
-    footer .footer-main-img img{
+    footer .footer-main-img img {
         width: 220px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 60%;
     }
 
@@ -358,26 +421,36 @@ footer .footer-bottom-part p a:hover{
 
 
 @media screen and (max-width: 767px) {
-    footer .footer-main-img img{
+
+    footer {
+        padding: 40px 0 0;
+    }
+
+    footer .footer-main-img img {
         width: 210px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .footer-icons {
+        gap: 10px;
+    }
+
+    footer .middle-part-inputs-btns p {
         width: 60%;
     }
-    footer .footer-middle-part .middle-part-inputs-btns input{
-        width:400px;
-        height: 64px;
+
+    footer .footer-middle-part .middle-part-inputs-btns input {
+        width: 400px;
+        height: 66px;
         font-size: 19px;
     }
-    footer .global-button{
+
+    footer .global-button {
         padding: 15px 40px;
         text-align: center;
         font-size: 19px;
     }
-    footer .footer-bottom-part .bottom-part-left{
-        gap: 10px;
-    }
-    footer .footer-bottom-part .bottom-part-right{
+
+    footer .footer-bottom-part .bottom-part-right {
         gap: 5px;
     }
 
@@ -385,83 +458,94 @@ footer .footer-bottom-part p a:hover{
 
 
 @media screen and (max-width: 630px) {
-   
-    footer .footer-main-img img{
+
+    footer .footer-main-img img {
         width: 180px;
-        margin-left: 60px;
     }
-    footer .footer-icons{
+
+    footer .footer-icons {
         gap: 10px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 70%;
-        font-size:18px ;
+        font-size: 18px;
     }
-    footer .input-and-btn{
+
+    footer .input-and-btn {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 69%;
         font-size: 19px;
     }
-    footer .hidden{
+
+    footer .hidden {
         gap: 40px;
     }
-    footer .hidden-part-first span{
+
+    footer .hidden-part-first span {
         font-weight: 400;
         font-size: 15px;
         line-height: 21px;
         letter-spacing: 3px;
     }
-    footer .hidden-part-address pre a{
+
+    footer .hidden-part-address pre a {
         font-weight: 400;
         font-size: 17px;
-        line-height: 30px; 
+        line-height: 30px;
     }
-    footer .hidden-part-second .second-part-working span{
-        
+
+    footer .hidden-part-second .second-part-working span {
+
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
-        
+
     }
-    footer .hidden-part-second .days-hidden pre{
-        
+
+    footer .hidden-part-second .days-hidden pre {
+
         font-weight: 400;
         font-size: 17px;
-        line-height: 25px; 
-        
+        line-height: 25px;
+
     }
-    
+
 }
 
 
 @media screen and (max-width: 606px) {
-    footer .footer-bottom-part{
+    footer .footer-bottom-part {
         gap: 10px;
     }
+
     footer .footer-bottom-part .bottom-part-left {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     footer .footer-bottom-part .bottom-part-right {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    footer .footer-bottom-part .bottom-part-left p{
+    footer .footer-bottom-part .bottom-part-left p {
         font-size: 19px;
-        line-height: 15px;
-    } 
-    footer .footer-bottom-part .bottom-part-left span{
+    }
+
+    footer .footer-bottom-part .bottom-part-left span {
         font-size: 19px;
         line-height: 15px;
 
     }
-    footer .footer-bottom-part .bottom-part-right p a{
+
+    footer .footer-bottom-part .bottom-part-right p a {
         font-size: 19px;
         line-height: 15px;
 
@@ -469,132 +553,168 @@ footer .footer-bottom-part p a:hover{
 }
 
 @media screen and (max-width: 500px) {
-    footer .footer-header h1{
+
+    footer .footer-top-part {
+        display: block;
+        text-align: center;
+    }
+
+    footer .footer-top-part .footer-main-img {
+        padding: 10px 0 15px;
+    }
+
+    footer .footer-top-part .footer-icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .footer-header h1 {
         font-size: 20px;
     }
-    footer .footer-main-img img{
+
+    footer .footer-main-img img {
         width: 160px;
-        margin-left: 60px;
     }
-    footer .footer-icons{
+
+    footer .footer-icons {
         gap: 5px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 80%;
-        font-size:18px ;
+        font-size: 18px;
         line-height: 25px;
     }
-   footer .footer-middle-part .middle-part-inputs-btns input{
+
+    footer .footer-middle-part .middle-part-inputs-btns input {
         width: 380px;
         height: 58px;
-   }
-   footer .global-button{
-    padding: 8px 30px;
-   }
-    
+    }
+
+    footer .global-button {
+        padding: 8px 30px;
+    }
+
 }
 
 @media screen and (max-width: 440px) {
-    footer .footer-header h1{
+    footer .footer-header h1 {
         font-size: 18px;
     }
-    footer .footer-main-img img{
+
+    footer .footer-main-img img {
         width: 140px;
-        margin-left: 40px;
     }
-    footer .footer-icons{
+
+    footer .footer-icons {
         gap: 3px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 90%;
-        font-size:17px ;
+        font-size: 17px;
         line-height: 22px;
     }
-   footer .footer-middle-part .middle-part-inputs-btns input{
+
+    footer .footer-middle-part .middle-part-inputs-btns input {
         width: 380px;
         height: 58px;
-   }
-   
-   footer .hidden{
-       gap: 30px;
-   }
-  footer .hidden-part-first span{
-      font-weight: 400;
-      font-size: 13px;
-      line-height: 21px;
-      letter-spacing: 3px;
-  }
-  footer .hidden-part-address pre a{
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px; 
-  }
-  footer .hidden-part-second .second-part-working span{
-      
-      font-weight: 400;
-      font-size: 13px;
-      line-height: 21px;
-      
-  }
-  footer .hidden-part-second .days-hidden pre{
-      
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px; 
-      
-  }
-  }
+    }
 
- @media screen and (max-width: 405px) {
-    footer .footer-header h1{
+    footer .hidden {
+        gap: 30px;
+    }
+
+    footer .hidden-part-first span {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        letter-spacing: 3px;
+    }
+
+    footer .hidden-part-address pre a {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    footer .hidden-part-second .second-part-working span {
+
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+
+    }
+
+    footer .hidden-part-second .days-hidden pre {
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+}
+
+@media screen and (max-width: 405px) {
+    footer .footer-header h1 {
         font-size: 17px;
     }
-    footer .footer-main-img img{
+
+    footer .footer-main-img img {
         width: 120px;
-        margin-left: 40px;
     }
-    footer .footer-icons svg{
+
+    footer .footer-icons svg {
         width: 20px;
         gap: 3px;
     }
-    footer .middle-part-inputs-btns p{
+
+    footer .middle-part-inputs-btns p {
         width: 90%;
-        font-size:16spx ;
+        font-size: 16spx;
         line-height: 18px;
     }
-    footer .footer-middle-part .middle-part-inputs-btns input{
+
+    footer .footer-middle-part .middle-part-inputs-btns input {
         width: 350px;
         height: 58px;
         font-size: 17px;
-   }
-    footer .hidden{
+    }
+
+    footer .hidden {
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
-    footer .hidden-part-first{
+
+    footer .hidden-part-first {
         text-align: center;
     }
-    footer .hidden-part-address{
-        margin-top: 10px;
-    }
-    footer .hidden-part-second{
-        text-align: center;
-    }
-    footer .days-hidden{
+
+    footer .hidden-part-address {
         margin-top: 10px;
     }
 
-    footer .footer-bottom-part .bottom-part-left p{
+    footer .hidden-part-second {
+        text-align: center;
+    }
+
+    footer .days-hidden {
+        margin-top: 10px;
+    }
+
+    footer .footer-bottom-part .bottom-part-left p {
         font-size: 17px;
         line-height: 12px;
-    } 
-    footer .footer-bottom-part .bottom-part-left span{
+    }
+
+    footer .footer-bottom-part .bottom-part-left span {
         font-size: 17px;
         line-height: 12px;
 
     }
-    footer .footer-bottom-part .bottom-part-right p a{
+
+    footer .footer-bottom-part .bottom-part-right p a {
         font-size: 17px;
         line-height: 12px;
 
@@ -602,17 +722,18 @@ footer .footer-bottom-part p a:hover{
 }
 
 @media screen and (max-width: 360px) {
-    footer .footer-main-img img{
+    footer .footer-main-img img {
         width: 100px;
-        margin-left: 40px;
     }
-    footer .footer-middle-part .middle-part-inputs-btns input{
+
+    footer .footer-middle-part .middle-part-inputs-btns input {
         width: 270px;
         height: 55px;
         font-size: 17px;
-   }
-   footer .global-button{
-    padding: 5px 15px;
-    font-size: 15px;
-   }
+    }
+
+    footer .global-button {
+        padding: 5px 15px;
+        font-size: 15px;
+    }
 }
