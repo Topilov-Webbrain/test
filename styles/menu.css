@@ -126,6 +126,11 @@
     cursor: pointer;
 }
 
+.menu .menu_btn:hover {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
 @media screen and (max-width:1220px) {
     .menu .menu_main_title_others {
         font-size: 24px;

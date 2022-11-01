@@ -1,21 +1,23 @@
-
 .reservation-contact-us {
-    background-color: #f4f4;
+    max-width: 1360px;
+    margin: 0 auto;
     background-image: url(../media/images/reservation/background.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.reservation-contact-us .container{
+
+.reservation-contact-us .container {
     padding: 140px 0px;
 }
-.reservation-contact-us .main-black-box{
+
+.reservation-contact-us .main-black-box {
     width: 70%;
     background: #292E36F2;
-    margin: 0px auto; 
-    padding:150px 140px ;
+    margin: 0px auto;
+    padding: 150px 140px;
 }
 
-.inline-box-inputs{
+.inline-box-inputs {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -23,10 +25,12 @@
     justify-content: center;
     gap: 30px;
 }
-.reservation-contact-us .inline-box{
+
+.reservation-contact-us .inline-box {
     text-align: center;
 }
-.reservation-contact-us .inline-box span{
+
+.reservation-contact-us .inline-box span {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
@@ -41,7 +45,8 @@
     padding-top: 8px;
     padding-bottom: 5px;
 }
-.reservation-contact-us .inline-box h2{
+
+.reservation-contact-us .inline-box h2 {
     font-family: 'Cormorant Infant';
     font-style: normal;
     font-weight: 400;
@@ -52,7 +57,8 @@
     text-transform: capitalize;
     color: var(--white-color);
 }
-.reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+.reservation-contact-us .inline-box-inputs .first-line-inputs input {
     width: 307px;
     height: 70px;
     border: 1px solid var(--white-color);
@@ -67,15 +73,27 @@
     color: var(--white-color);
     padding-left: 20px;
 }
-.reservation-contact-us .first-line-inputs{
+
+.reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+
+.reservation-contact-us .first-line-inputs {
     display: flex;
     gap: 30px;
 }
-.reservation-contact-us .second-line-inputs{
+
+.reservation-contact-us .second-line-inputs {
     display: flex;
     gap: 25px;
 }
-.reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+.reservation-contact-us .inline-box-inputs .second-line-inputs input {
     width: 198px;
     height: 70px;
     border: 1px solid var(--white-color);
@@ -90,346 +108,452 @@
     outline: none;
     padding-left: 20px;
 }
-.reservation-contact-us .inline-box-inputs button{
-    padding: 15px 40px;
-    border: 1px solid var(--white-color);
-    background-color: var(--white-color);
-    color: #000000;  
+
+.reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
 }
-.reservation-contact-us .inline-box-inputs button:active{
-    transform: scale(0.96);
+
+.reservation-contact-us .inline-box-inputs button {
+    padding: 10px 40px;
+    border-color: var(--white-color);
+    background-color: var(--white-color);
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.reservation-contact-us .inline-box-inputs button:hover {
+    border-color: var(--orange-color);
+    background-color: var(--orange-color);
+    color: var(--white-color);
 }
 
 /* -------------------Reservation media part---------------- */
 
 @media screen and (max-width: 1050px) {
-    .reservation-contact-us .main-black-box{
-        padding:130px 140px ;
+    .reservation-contact-us .main-black-box {
+        padding: 130px 140px;
     }
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 280px;
         height: 70px;
         padding-left: 20px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .first-line-inputs {
         gap: 28px;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         gap: 23px;
     }
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 178px;
         height: 70px;
         padding-left: 20px;
     }
-    .reservation-contact-us .inline-box-inputs button{
-       padding: 15px 30px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;  
+
+    .reservation-contact-us .inline-box-inputs button {
+        padding: 5px 30px;
     }
 }
+
 @media screen and (max-width: 950px) {
-    .reservation-contact-us .main-black-box{
+    .reservation-contact-us .main-black-box {
         width: 75%;
         padding: 0px;
     }
-    .reservation-contact-us .main-black-box{
-        padding:130px 140px ;
+
+    .reservation-contact-us .main-black-box {
+        padding: 130px 140px;
     }
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 260px;
         height: 65px;
         font-size: 18px;
         padding-left: 15px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 18px;
+    }
+
+    .reservation-contact-us .first-line-inputs {
         gap: 26px;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         gap: 21px;
     }
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 158px;
         height: 65px;
         font-size: 18px;
         padding-left: 20px;
     }
-    .reservation-contact-us .inline-box-inputs button{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
         font-size: 18px;
-        padding: 13px 20px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;  
     }
-    
+
+    .reservation-contact-us .inline-box-inputs button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
 }
+
 @media screen and (max-width: 850px) {
-    .reservation-contact-us .main-black-box{
+    .reservation-contact-us .main-black-box {
         width: 80%;
         padding: 0px;
     }
-    .reservation-contact-us .main-black-box{
-        padding:90px 160px ;
+
+    .reservation-contact-us .main-black-box {
+        padding: 90px 160px;
     }
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 240px;
         height: 65px;
         font-size: 18px;
         padding-left: 15px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 18px;
+    }
+
+    .reservation-contact-us .first-line-inputs {
         gap: 24px;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         gap: 21px;
     }
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 138px;
         height: 65px;
         font-size: 18px;
         padding-left: 20px;
     }
-    .reservation-contact-us .inline-box-inputs button{
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;  
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
+        font-size: 18px;
+    }
+
+    .reservation-contact-us .inline-box-inputs button {
         font-size: 17px;
     }
-    .reservation-contact-us .inline-box h2{
+
+    .reservation-contact-us .inline-box h2 {
         font-size: 30px;
         line-height: 50px;
-        
+
     }
 }
+
 @media screen and (max-width: 767px) {
-    .reservation-contact-us .main-black-box{
-        padding:50px 0px ;
+    .reservation-contact-us .main-black-box {
+        padding: 50px 0px;
     }
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 220px;
         height: 60px;
         font-size: 16px;
         padding-left: 12px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .first-line-inputs {
         gap: 20px;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         gap: 19px;
     }
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 118px;
         height: 60px;
         font-size: 16px;
         padding-left: 15px;
     }
-    .reservation-contact-us .inline-box-inputs button{
-        padding: 13px 30px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;  
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
         font-size: 16px;
     }
-    .reservation-contact-us .inline-box h2{
+
+    .reservation-contact-us .inline-box-inputs button {
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .inline-box h2 {
         font-size: 28px;
         line-height: 40px;
-        
+
     }
 }
+
 @media screen and (max-width: 720px) {
-    .reservation-contact-us .main-black-box{
+    .reservation-contact-us .main-black-box {
         width: 90%;
         padding: 0px;
     }
-    .reservation-contact-us .main-black-box{
-        padding:30px 0px ;
+
+    .reservation-contact-us .main-black-box {
+        padding: 30px 0px;
     }
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 200px;
         height: 55px;
         font-size: 16px;
         padding-left: 12px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .first-line-inputs {
         gap: 15px;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         gap: 13px;
     }
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 130px;
         height: 55px;
         font-size: 16px;
         padding-left: 10px;
     }
-    .reservation-contact-us .inline-box-inputs button{
-        padding: 13px 15px;
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
         font-size: 16px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;  
     }
-    .reservation-contact-us .inline-box h2{
+
+    .reservation-contact-us .inline-box-inputs button {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .inline-box h2 {
         font-size: 28px;
         line-height: 40px;
-        
+
     }
 }
+
 @media screen and (max-width: 634px) {
-    .inline-box-inputs{
+    .inline-box-inputs {
         margin-top: 30px;
         gap: 15px;
     }
-    .reservation-contact-us .main-black-box{
-        padding:30px 0px;
+
+    .reservation-contact-us .main-black-box {
+        padding: 30px 0px;
     }
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 190px;
         height: 55px;
         font-size: 16px;
         padding-left: 12px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .first-line-inputs {
         gap: 15px;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         gap: 13px;
     }
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 120px;
         height: 55px;
         font-size: 16px;
         padding-left: 10px;
     }
-    .reservation-contact-us .inline-box-inputs button{
-        padding: 10px 8px ;
-        font-size: 15px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;  
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
+        font-size: 16px;
     }
-    .reservation-contact-us .inline-box h2{
+
+    .reservation-contact-us .inline-box-inputs button {
+        padding: 4px 8px;
+        font-size: 15px;
+    }
+
+    .reservation-contact-us .inline-box h2 {
         font-size: 28px;
         line-height: 40px;
-        
+
     }
 }
+
 @media screen and (max-width: 520px) {
-    .reservation-contact-us .main-black-box{
+    .reservation-contact-us .main-black-box {
         width: 100%;
         padding: 0px;
     }
-    .inline-box-inputs{
+
+    .inline-box-inputs {
         margin-top: 30px;
         gap: 15px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .first-line-inputs {
         flex-direction: column;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         flex-direction: column;
     }
-    .reservation-contact-us .main-black-box{
-        padding:30px 0px;
+
+    .reservation-contact-us .main-black-box {
+        padding: 30px 0px;
     }
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 400px;
         height: 55px;
         font-size: 16px;
         padding-left: 12px;
     }
-    .reservation-contact-us .first-line-inputs{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .first-line-inputs {
         gap: 15px;
     }
-    .reservation-contact-us .second-line-inputs{
+
+    .reservation-contact-us .second-line-inputs {
         gap: 13px;
     }
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 400px;
         height: 55px;
         font-size: 16px;
         padding-left: 10px;
     }
-    .reservation-contact-us .inline-box-inputs button{
-        font-size: 15px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;
-        padding: 15px 80px;  
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
+        font-size: 16px;
     }
-    .reservation-contact-us .inline-box h2{
+
+    .reservation-contact-us .inline-box-inputs button {
+        font-size: 15px;
+        padding: 15px 80px;
+    }
+
+    .reservation-contact-us .inline-box h2 {
         font-size: 28px;
         line-height: 40px;
-        
+
     }
 }
 
 
 @media screen and (max-width: 450px) {
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 350px;
         height: 55px;
         font-size: 16px;
         padding-left: 12px;
     }
-    
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 350px;
         height: 55px;
         font-size: 16px;
         padding-left: 10px;
     }
-    .reservation-contact-us .inline-box-inputs button{
+
+    .reservation-contact-us .inline-box-inputs button {
         font-size: 15px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;
-        padding: 15px 60px;  
+        padding: 15px 60px;
     }
 }
 
 @media screen and (max-width: 410px) {
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 320px;
         height: 55px;
         font-size: 16px;
         padding-left: 12px;
     }
-    
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 320px;
         height: 55px;
         font-size: 16px;
         padding-left: 10px;
     }
-    .reservation-contact-us .inline-box-inputs button{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .inline-box-inputs button {
         font-size: 15px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;
-        padding: 12px 50px;  
+        padding: 12px 50px;
     }
 }
+
 @media screen and (max-width: 350px) {
-    .reservation-contact-us .inline-box-inputs .first-line-inputs input{
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input {
         width: 280px;
         height: 55px;
         font-size: 16px;
         padding-left: 12px;
     }
-    
-    .reservation-contact-us .inline-box-inputs .second-line-inputs input{
+
+    .reservation-contact-us .inline-box-inputs .first-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input {
         width: 280px;
         height: 55px;
         font-size: 16px;
         padding-left: 10px;
     }
-    .reservation-contact-us .inline-box-inputs button{
+
+    .reservation-contact-us .inline-box-inputs .second-line-inputs input::placeholder {
+        font-size: 16px;
+    }
+
+    .reservation-contact-us .inline-box-inputs button {
         font-size: 15px;
-        border: 1px solid var(--white-color);
-        background-color: var(--white-color);
-        color: #000000;
-        padding: 10px 40px;  
+        padding: 10px 40px;
     }
 }
