@@ -1,4 +1,207 @@
 .what-we-offer {
-    height: 100vh;
-    background-color: teal;
+    background-color: var(--black-color);
+    padding: 140.28px 0px 139.72px 0px;
+    overflow-x: hidden;
+}
+
+.what-we-offer .weoffer_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.what-we-offer .weoffer_nadpisi {
+    display: flex;
+    flex-direction: column;
+    max-width: 813px;
+    gap: 13px;
+}
+
+.what-we-offer .weoffer_zaglavniy {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color);
+    width: 170px;
+    padding-top: 5px;
+}
+
+.what-we-offer .weoffer_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: var(--white-color);
+}
+
+.what-we-offer .weoffer_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+}
+
+.what-we-offer .weoffer_bloki {
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-offer .block_score {
+    padding: 50px 0px;
+    min-width: 254px;
+    border: 20px solid #323841;
+    display: flex;
+    margin-right: 30px;
+}
+
+.what-we-offer .block_zaglaviye {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    padding-top: 15px;
+    text-align: center;
+}
+
+.what-we-offer .weoffer_block_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-offer .weoffer_block_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-we-offer .weoffer_block_three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1371px) {
+
+    .what-we-offer {
+        padding: 70px 0px 70px 0px;
+    }
+
+    .what-we-offer .weoffer_box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .what-we-offer .weoffer_nadpisi {
+        width: 100%;
+    }
+
+
+    .what-we-offer .weoffer_bloki {
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .what-we-offer .weoffer_nadpisi {
+        text-align: center;
+        padding-right: 0px;
+        gap: 0px;
+        margin: 0 auto;
+    }
+
+    .what-we-offer .weoffer_zaglavniy {
+        margin: 0 auto;
+    }
+
+    .what-we-offer .block_score {
+        padding: 40px 0px;
+        min-width: 230px;
+        border: 20px solid #323841;
+        display: flex;
+        margin-right: 0px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .what-we-offer {
+        background-color: var(--black-color);
+        padding: 40px 0 40px 0;
+    }
+
+    .what-we-offer .weoffer_box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .what-we-offer .weoffer_nadpisi {
+        padding-right: 0px;
+        max-width: 500px;
+    }
+
+    .what-we-offer .weoffer_zaglavniy {
+        margin: 0 auto;
+    }
+
+    .what-we-offer .weoffer_text {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .what-we-offer .weoffer_bloki {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .what-we-offer .block_score {
+        width: 245px;
+        margin-bottom: 20px;
+        padding: 50px 0px;
+        display: flex;
+    }
+
+    .what-we-offer .weoffer_block_one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .what-we-offer .weoffer_block_two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .what-we-offer .weoffer_block_three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -1,4 +1,195 @@
-.menu {
-    height: 100vh;
-    background-color: tan;
+.menu .menu_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu .menu_top {
+    padding: 120px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 813px;
+    width: 100%;
+}
+
+.menu .menu_zaglaviy {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    border-top: 1px solid var(--orange-color);
+    border-bottom: 1px solid var(--orange-color)
+}
+
+.menu .menu_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: var(--black-color);
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.menu .menu_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--light-black-color);
+}
+
+.menu .menu_main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu .menu_score {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: calc((100% - 90px) / 4);
+}
+
+.menu .menu_score img {
+    width: 100%;
+}
+
+.menu .menu_main_title_box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DCDCDC;
+
+}
+
+.menu .menu_main_title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: var(--black-color);
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.menu .menu_main_text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: var(--light-black-color);
+    padding-top: 13px;
+}
+
+.menu .menu_main_title_others {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: var(--black-color);
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.menu .menu_btn {
+    width: 255px;
+    height: 73px;
+    border: 2px solid var(--orange-color);
+    border-radius: 0px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--orange-color);
+    margin-top: 65px;
+    margin-bottom: 140px;
+    background-color: var(--white-color);
+    cursor: pointer;
+}
+
+@media screen and (max-width:1220px) {
+    .menu .menu_main_title_others {
+        font-size: 24px;
+    }
+
+    .menu .menu_main_title {
+        font-size: 24px;
+    }
+
+    .menu_main_text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .menu .menu_score {
+        display: flex;
+        flex-direction: column;
+        width: calc((100% - 30px) / 2);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .menu .menu_top {
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .menu .menu_main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 25px;
+        width: 100%;
+    }
+
+    .menu .menu_score {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .menu .menu_score img {
+        width: 100%;
+    }
+
+    .menu .menu_title {
+        text-align: center;
+    }
+
+    .menu .menu_btn {
+        width: 230px;
+        height: 70px;
+        margin-bottom: 40px;
+    }
+
+    .menu .menu_btn_bottom {
+        width: 100%;
+        text-align: center;
+    }
 }

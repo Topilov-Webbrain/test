@@ -18,6 +18,7 @@ header .my-container .left-side {
 }
 
 header .my-container .left-side .title {
+    font-family: 'Cormorant Infant', sans-serif;
     font-size: 100px;
     line-height: 110px;
     letter-spacing: 0.2px;
@@ -26,10 +27,11 @@ header .my-container .left-side .title {
 
 header .my-container .left-side p {
     margin: 26px 0 40px;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.2px;
-    color: #fff;
+    color: var(--white-color);
 }
 
 header .my-container .left-side a {
